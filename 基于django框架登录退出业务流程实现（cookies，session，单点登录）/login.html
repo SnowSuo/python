@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>登录业务</title>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'css/global.css' %}"/>
+</head>
+<body>
+    <h1>登录</h1>
+    <form action="/app/login/" method="POST">
+    {% csrf_token %}
+    <input type="text" name="account" value="{{account}}" placeholder="登录账号" required/><br/>
+    <input type="password" name="password" value="password" placeholder="登录密码" required/><br/>
+    <button type="submit">登录</button>
+</form>
+    <label  style="margin-left: 20px" >{{message}}</label>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>变量访问</title>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'css/global.css' %}"/>
+</head>
+<body>
+        <h1>登录业务流程</h1>
+        <ul>
+            <!-- <li>
+                <a class="linkfont" href="/app/setcookies/Chinasoft">案例一：向cookies写入数据</a><br/>
+                <label class="tooltip">获取GET请求数据（/app/setcookies/Chinasoft），并将数据写入到cookies中</label>
+            </li>
+            <li>
+                <a class= "linkfont" href="/app/getcookies/">案例二：从cookies中获取数据</a><br/>
+                <label class="tooltip">从cookies中获取数据</label><label style="color: seagreen">{{company}}</label>
+            </li>
+            <li>
+                <a class= "linkfont" href="/app/setsaltcookies/python">案例三：向cookies中加密写入数据</a><br/>
+                <label class="tooltip">向cookies中加密写入数据</label>
+            </li>
+            <li>
+                <a class= "linkfont" href="/app/getsaltcookies/">案例四：获取cookies中加密数据</a> <br/>
+                <label class="tooltip">获取cookies中加密数据</label><label style="color: rosybrown" >{{language}}</label>
+            </li> -->
+            <li>
+                    <a class= "linkfont" href="/app/login/">登录账号自动填补</a> <br/>
+                    <label class="tooltip">登录账号自动填补</label>
+            </li>
+            <!-- <li>
+                <a class= "linkfont" href="/app/setSessions/Steven">向session会话中写入数据</a> <br/>
+                <label class="tooltip">登录账号将用户姓名写到session会话中</label>
+            </li>
+            <li>
+                <a class= "linkfont" href="/app/getSessions">向session会话中获取数据</a> <br/>
+                <label class="tooltip">从session中获取指定数据</label>
+            </li> -->
+            <li>
+                    <a class= "linkfont" href="/app/gotoLogin/">使用session实现登录退出</a> <br/>
+                    <label class="tooltip">使用session实现登录退出（利用session会话存放，获取并删除数据）</label>
+            </li>
+            
+        </ul>
+    
+</body>
+</html>
