@@ -1,0 +1,11 @@
+{
+    "python.pythonPath": "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\",
+    "editor.fontSize": 16,
+    "editor.formatOnPaste": true,
+    "editor.fontWeight": "500",
+    "workbench.preferredDarkColorTheme": "Visual Studio Dark",
+    "workbench.colorTheme": "Visual Studio Dark",
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true,
+    "git.path": "D:\\SoftWare\\Git",
+}
